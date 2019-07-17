@@ -84,6 +84,9 @@ public class Main {
                                 break;
                             }
                         }
+                        if(running == false){
+                            break;
+                        }
                     }
             }
         }
