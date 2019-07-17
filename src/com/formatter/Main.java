@@ -13,6 +13,7 @@ public class Main {
      */
 
     public static void main(String[] args) {
+        int turn = 1;
         ArrayList<Character> characters;
         Scanner scanner = new Scanner(System.in);
 
@@ -20,6 +21,8 @@ public class Main {
 
         boolean running = true;
         while(running){
+            System.out.println("Turn: "+turn);
+            turn+=1;
             for(int i=0; i<2;i++){
                 if(i==0){
                     System.out.println(characters.get(0).getCharacterName()+": please choose an attack");
