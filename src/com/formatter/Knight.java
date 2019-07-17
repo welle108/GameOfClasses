@@ -28,7 +28,7 @@ public class Knight extends Character {
     }
 
     /**
-     * Generates a random number between 0-49 then adds one to make it between 1-50. If that number divided by 6
+     * Generates a random number between 0-49 then adds one to make it between 1-50. If that number divided by 3
      * is equal to 0, the critical hit is successful and does 50 damage. If it is anything other than 0 the attack
      * misses and does no damage.
      *
